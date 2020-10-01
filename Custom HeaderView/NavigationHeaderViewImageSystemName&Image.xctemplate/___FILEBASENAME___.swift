@@ -32,7 +32,7 @@ struct  ___FILEBASENAMEASIDENTIFIER___: View {
                     .renderingMode(.original)
                     .resizable()
                     .aspectRatio(contentMode: .fill)
-                    .frame(width: proxyHeight(for: metric) * 0.6, height: proxyHeight(for: metric) * 0.6)
+                    .frame(width: proxyHeight(for: metric) * 0.4, height: proxyHeight(for: metric) * 0.4)
                     .clipShape(Circle())
             })
         }
