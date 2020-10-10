@@ -148,7 +148,20 @@ struct  ___FILEBASENAMEASIDENTIFIER___: View {
     }
 }
 
-// FIXME: - Data()  ตัวอย่าง Data  เดี๋ยวต้องลงทิ้ง
+
+// FIXME: - Data()  ตัวอย่าง Data  เดี๋ยวต้องลบทิ้ง
+
+struct Recipe {
+    var image: String
+    var title: String
+    var detail: String
+    var rating: String
+    var type: String
+    var color: Color
+    
+}
+
+
 var recipes = [
 
     Recipe(image: "r1", title: "Mexican Egg Mix", detail: "A gentle combination of carefully chosen veggies with a Mexican taste. A gentle combination of carefully chosen veggies with a Mexican taste. A gentle combination of carefully chosen veggies with a Mexican taste.", rating: "4.5", type: "easy",color: Color("blue")),
